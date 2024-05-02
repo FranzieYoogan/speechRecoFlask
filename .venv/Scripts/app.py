@@ -16,7 +16,7 @@ def index():
         try:
          data = ("You said: " + r.recognize_google(audio))    # recognize speech using Google Speech Recognition
          return render_template('index.htm',data = data)
-        except LookupError:                            # speech is unintelligible
+        except:                            # speech is unintelligible
           data =  ("Could not understand audio")
           return render_template('index.htm',data = data)
         
