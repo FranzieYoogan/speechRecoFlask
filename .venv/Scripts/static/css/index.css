@@ -1,0 +1,46 @@
+
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+
+}
+
+.btn {
+
+    font-weight: 900 !important;
+
+}
+
+.resultStyle{
+
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    top: 3em;
+    text-align: center;
+    background-color: #4eceb1;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media only screen and (width: 400px) {
+    .resultStyle {
+        position: absolute;
+        top: 6em;
+        font-size: 20px !important;
+    }
+  }
+
+
+  @media only screen and (width: 554px) {
+    .resultStyle {
+        position: absolute;
+        top: 5em !important;
+       
+     
+       
+    }
+  }
